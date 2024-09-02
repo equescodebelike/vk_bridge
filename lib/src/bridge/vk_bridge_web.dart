@@ -68,9 +68,6 @@ import 'package:vk_bridge/src/utils.dart';
 import 'package:vk_bridge/vk_bridge.dart';
 import 'package:web/web.dart' hide ScrollOptions;
 
-@JS('vkBridge.isEmbedded')
-external JSBoolean _isEmbedded();
-
 /// Method for sending something to the VK Mini Aps platform
 @JS('vkBridge.send')
 external JSAny _send(JSString method, [JSObject props]);
